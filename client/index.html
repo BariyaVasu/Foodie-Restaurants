@@ -3,10 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Foodie Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/client/css/style.css">
 </head>
 <body>
-    <h1>This is Home Page</h1>
+    <!-- Header Part -->
+     <header>
+        <nav class="navBar flex between wrapper">
+            <a href="#" class="logo">Foodie </a>
+            <!-- Desktop list -->
+            <ul class="navList flex gap">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+            <div class="desktop_action flex gap2">
+                <a href="#" class="cart-icon"><i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-values">0</span></a>
+                <a href="#" class="btn">Sign in &nbsp; <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <a href="#" class="hamBurger"><i class="fa-solid fa-bars"></i></a>
+            </div>
+
+            <!-- Mobile list -->
+             <ul class="mobile-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#" class="btn">Sign in &nbsp; <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                </li>
+            </ul>
+
+        </nav>
+     </header>
+
+     <!-- Section part -->
+      <main>
+        <section>
+            <div class="hero-section flex">
+                <div class="content">
+                    <h1>Enjoy Your Delicious 
+                        <span>Food</span>
+                    </h1>
+                    <p>
+                        we will fill your tummy with Delicious
+                        food 
+                    </p>
+                    <div>
+                        <a href="#" class="btn">Order New</a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-google-plus-g"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="assets/delivery-boy.png" alt="">
+                </div>
+            </div>
+        </section>
+
+      </main>
+
+      <!-- Footer Part -->
+       <footer>
+
+
+       </footer>
 </body>
 </html>
