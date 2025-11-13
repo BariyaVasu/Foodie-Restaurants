@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foodie Restaurant</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/client/css/style.css">
+    <script defer src="js/main.js"></script>
+
 </head>
+
 <body>
     <!-- Header Part -->
-     <header>
+    <header>
         <nav class="navBar flex between wrapper">
             <a href="#" class="logo">Foodie </a>
             <!-- Desktop list -->
@@ -22,35 +28,37 @@
             </ul>
             <div class="desktop_action flex gap2">
                 <a href="#" class="cart-icon"><i class="fa-solid fa-bag-shopping"></i>
-                <span class="cart-values">0</span></a>
+                    <span class="cart-values">0</span></a>
                 <a href="#" class="btn">Sign in &nbsp; <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
                 <a href="#" class="hamBurger"><i class="fa-solid fa-bars"></i></a>
             </div>
 
             <!-- Mobile list -->
-             <ul class="mobile-list">
+            <ul class="mobile-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
                 <li><a href="#">Service</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Contacts</a></li>
-                <li><a href="#" class="btn">Sign in &nbsp; <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <li><a href="#" class="btn" id="btnLogin">Sign in &nbsp; <i
+                            class="fa-solid fa-arrow-right-from-bracket"></i></a>
                 </li>
             </ul>
 
         </nav>
-     </header>
+    </header>
 
-     <!-- Section part -->
-      <main>
+    <!-- Section part -->
+    <main>
         <section>
             <div class="hero-section flex wrapper gap3">
                 <div class="content">
-                    <h1>Enjoy Your Delicious 
+                    <h1>Enjoy Your Delicious
                         <span>Food</span>
                     </h1>
                     <p class="para">
-                        Get ready to fill your tummy with mouthwatering dishes <br> that will make you smile with every bite!
+                        Get ready to fill your tummy with mouthwatering dishes <br> that will make you smile with every
+                        bite!
                     </p>
                     <div class="flex gap2">
                         <a href="#" class="btn">Order New</a>
@@ -66,7 +74,7 @@
                         <a href="#" class="social-icon">
                             <i class="fa-brands fa-facebook"></i>
                         </a>
-                        
+
                     </div>
                 </div>
                 <div class="image-container">
@@ -77,88 +85,89 @@
 
         <Section>
             <div class="wrapper p-top">
-            <div class="text-center">
-                <h5>Our Services</h5>
-                <h2>How dose it work?</h2>
-            </div>
-
-            <div class="flex text-center mt-4 gap3">
-                <div class="service-card">
-                    <div class="image-container">
-                        <img src="assets/easy-to-order.png">
-                    </div>
-                    <h3>Easy to order</h3>
-                    <p>You only need a few steps in ordering food.</p>
+                <div class="text-center">
+                    <h5>Our Services</h5>
+                    <h2>How dose it work?</h2>
                 </div>
 
-                <div class="service-card">
-                    <div class="image-container">
-                        <img src="assets/fast-delivery.png">
+                <div class="flex text-center mt-4 gap3">
+                    <div class="service-card">
+                        <div class="image-container">
+                            <img src="assets/easy-to-order.png">
+                        </div>
+                        <h3>Easy to order</h3>
+                        <p>You only need a few steps in ordering food.</p>
                     </div>
-                    <h3>Fast Delivery</h3>
-                    <p>Delivery that always on time even faster.</p>
-                </div>
 
-                <div class="service-card">
-                    <div class="image-container">
-                        <img src="assets/best-quality.png">
+                    <div class="service-card">
+                        <div class="image-container">
+                            <img src="assets/fast-delivery.png">
+                        </div>
+                        <h3>Fast Delivery</h3>
+                        <p>Delivery that always on time even faster.</p>
                     </div>
-                    <h3>Bast Quality</h3>
-                    <p>Not only fast for us in quality is also number one.</p>
+
+                    <div class="service-card">
+                        <div class="image-container">
+                            <img src="assets/best-quality.png">
+                        </div>
+                        <h3>Bast Quality</h3>
+                        <p>Not only fast for us in quality is also number one.</p>
+                    </div>
                 </div>
-            </div>
             </div>
         </Section>
 
         <section>
             <div class="wrapper p-top">
                 <div class="text-center">
-                <h5>Our Menu</h5>
-                <h2>The Most Popular</h2>
-            </div>
-            <div class="card-list text-center flex mt-4 gap2">
-                <div class="order-card">
-                    <div class="card-image">
-                        <img src="assets/burger.png">
-                    </div>
-                    <h4>Double Chicken Burger</h4>
-                    <h4 class="price">&#8377;150</h4>
-                    <a href="#" class="btn">Add To Cart</a>
+                    <h5>Our Menu</h5>
+                    <h2>The Most Popular</h2>
                 </div>
-                <div class="order-card">
-                    <div class="card-image">
-                        <img src="assets/burger.png">
+                <div class="card-list text-center flex mt-4 gap2">
+                    <!-- <div class="order-card">
+                        <div class="card-image">
+                            <img src="assets/burger.png">
+                        </div>
+                        <h4>Double Chicken Burger</h4>
+                        <h4 class="price">&#8377;150</h4>
+                        <a href="#" class="btn">Add To Cart</a>
                     </div>
-                    <h4>Double Chicken Burger</h4>
-                    <h4 class="price">&#8377;150</h4>
-                    <a href="#" class="btn">Add To Cart</a>
-                </div>
-                <div class="order-card">
-                    <div class="card-image">
-                        <img src="assets/burger.png">
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="assets/burger.png">
+                        </div>
+                        <h4>Double Chicken Burger</h4>
+                        <h4 class="price">&#8377;150</h4>
+                        <a href="#" class="btn">Add To Cart</a>
                     </div>
-                    <h4>Double Chicken Burger</h4>
-                    <h4 class="price">&#8377;150</h4>
-                    <a href="#" class="btn">Add To Cart</a>
-                </div>
-                <div class="order-card">
-                    <div class="card-image">
-                        <img src="assets/burger.png">
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="assets/burger.png">
+                        </div>
+                        <h4>Double Chicken Burger</h4>
+                        <h4 class="price">&#8377;150</h4>
+                        <a href="#" class="btn">Add To Cart</a>
                     </div>
-                    <h4>Double Chicken Burger</h4>
-                    <h4 class="price">&#8377;150</h4>
-                    <a href="#" class="btn">Add To Cart</a>
-                </div>
-            </div>
+                    <div class="order-card">
+                        <div class="card-image">
+                            <img src="assets/burger.png">
+                        </div>
+                        <h4>Double Chicken Burger</h4>
+                        <h4 class="price">&#8377;150</h4>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>-->
+                </div> 
             </div>
         </section>
 
-      </main>
+    </main>
 
-      <!-- Footer Part -->
-       <footer>
+    <!-- Footer Part -->
+    <footer>
 
 
-       </footer>
+    </footer>
+
 </body>
 </html>
