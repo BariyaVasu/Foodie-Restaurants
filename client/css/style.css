@@ -184,6 +184,9 @@ h3{
 }
 .order-card img{
     width: 15rem;
+    filter: drop-shadow(
+        rgba(0, 0, 0, 0.500)  0 10px 15px
+    );
 }
 h4{
     font-size: 1.4rem;
@@ -192,7 +195,7 @@ h4{
 .order-card .price{
     font-size: 1.4rem;
     color: var(--gold-finger);
-    padding: 1rem 0 2rem 0 ;
+    padding: 1rem 0 1.2rem 0 ;
 }
 /* footer Styling */
 
