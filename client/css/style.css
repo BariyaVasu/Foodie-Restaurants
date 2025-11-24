@@ -237,6 +237,19 @@ h4{
     text-align: center;
     line-height: 2.5rem;
 }
+/* SECTION 4 */
+.app-container{
+    background: var(--hint-yellow);
+    border-radius: 3rem;
+    padding: 3rem 6rem;
+}
+.app-container .image-container img{
+    width: 25rem;
+}
+
+.app-container .content h2{
+    font-size: 4.5rem;
+}
 /* footer Styling */
 
 
@@ -302,6 +315,14 @@ h4{
     /* Section 01 */
     h2{
         font-size: 3rem;
+    }
+
+    /* SECTION 4 */
+    .app-container{
+        padding: 2.2rem;
+    }
+    .app-container .content h2{
+        font-size: 3.5rem;
     }
 
 }
