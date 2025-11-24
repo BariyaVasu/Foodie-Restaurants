@@ -67,7 +67,18 @@ img{
 .mt-1{
     margin: 1.2rem;
 }
-
+.m-auto{
+    margin: auto;
+}
+.mt-one-half{
+    margin: 1.5rem;
+}
+.ml-forPara{
+    margin-left: -0px;
+}
+.bx-shadow{
+    box-shadow: rgba(0, 0, 0, 0.1) 0 5px 8px;
+}
 /* Header Styling */
 
 .navBar{
@@ -250,10 +261,45 @@ h4{
 .app-container .content h2{
     font-size: 4.5rem;
 }
+
+/* SECTION 5 */
+.input-container{
+    width: 43rem;
+    max-width: 100%;
+    background: var(--pure-white);
+    padding: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 5px 8px;
+    border-radius:1.2rem;
+    margin: 4rem auto 0 auto;
+}
+input[type="email"]{
+    flex: 1;
+    height: 6vh;
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    padding-left: 1.2rem;
+}
+input[type="email"]:focus{
+    outline: none;
+}
+
 /* footer Styling */
-
-
-
+.footer-container{
+    margin-top: 10rem;
+    padding-block: 4rem;
+    background: var(--hint-yellow);
+}
+.footer-wrapper{
+    flex: 1;
+}
+.footer-wrapper .social-icon{
+    background: var(--pure-white);
+}
+.footer-wrapper .social-icon:hover{
+    background: var(--lead);
+    color: var(--pure-white);
+}
 
 
 
