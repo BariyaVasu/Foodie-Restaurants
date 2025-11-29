@@ -79,6 +79,9 @@ img{
 .bx-shadow{
     box-shadow: rgba(0, 0, 0, 0.1) 0 5px 8px;
 }
+.mt-top{
+margin-top: 1rem;
+}
 /* Header Styling */
 
 .navBar{
@@ -290,8 +293,16 @@ input[type="email"]:focus{
     padding-block: 4rem;
     background: var(--hint-yellow);
 }
+.footer-container .flex{
+    align-items: flex-start;
+}
 .footer-wrapper{
     flex: 1;
+    flex-basis: 150px;
+}
+.footer-wrapper:nth-child(1){
+    flex: 2;
+    flex-basis: 300px;
 }
 .footer-wrapper .social-icon{
     background: var(--pure-white);
@@ -300,6 +311,16 @@ input[type="email"]:focus{
     background: var(--lead);
     color: var(--pure-white);
 }
+.footer-link{
+    color: gray;
+    font-size: 1.2rem;
+    transition: .1s ease-in-out;
+}
+.footer-link:hover{
+    color: var(--lead);
+}
+
+
 
 
 
