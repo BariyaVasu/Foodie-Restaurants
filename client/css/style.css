@@ -218,6 +218,91 @@ h4{
     padding: 1rem 0 1.2rem 0 ;
 }
 
+/* Cart Tab styling*/
+.cart-tab{
+    background: var(--hint-yellow);
+    position: fixed;
+    inset: 0 -500px 0 auto;
+    width: 25rem;
+    padding-block: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    box-shadow: rgba(0, 0, 0, 0.5) -10px -10px 20px;
+    transition: .5s ease-in-out;
+}
+.cart-tab-active{
+    inset: 0 0 0 auto;
+}
+.cart-list{
+    flex: 1;
+    width: 100%;
+    margin-top: 1.5rem;
+    overflow: auto;
+}
+.cart-list::-webkit-scrollbar{
+    width: 0;
+}
+.total-container{
+    width: 100%;
+    background: var(--gold-finger);
+    text-align: center;
+    margin-block: 1rem;
+    padding-block: 1rem;
+}
+.total-container h4{
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.btn-container .btn{
+    background: var(--lead);
+    transition: .2s ease-in-out;
+}
+.btn-container .btn:hover{
+    background: var(--gold-finger);
+    color: var(--lead);
+}
+.item{
+    display: flex;
+    align-items: center;
+    padding: .7rem 1rem;
+    gap: 1rem;
+}
+.cart-list .item:nth-child(even){
+    background: var(--eye-ball);
+}
+.item .detail{
+    flex: 2;
+}
+.item .item-image img{
+    width: 5rem;
+}
+.item h4{
+    font-size: 1.3rem;
+    color: var(--lead);
+}
+.item .item-total{
+    font-weight: 400;
+    margin-top: .3rem;
+}
+.quantity-btn{
+    background: var(--lead);
+    color: var(--pure-white);
+    width: 1.7rem;
+    aspect-ratio: 1;
+    border-radius: 100vw;
+    text-align: center;
+    line-height: 1.7rem;
+
+}
+.quantity-value{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-inline: .6rem;
+}
 /* Section 03 */
 .review-container{
     width: 650px;

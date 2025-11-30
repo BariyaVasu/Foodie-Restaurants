@@ -2,49 +2,49 @@
     {
         "id" : 1,
         "name" : "Fired Chicken",
-        "price" : "$200",
+        "price" : "&#8377;200",
         "image" : "./images/fried-chicken.png"
     },
     {
         "id" : 2,
         "name" : "Pizza",
-        "price" : "$200",
+        "price" : "&#8377;180",
         "image" : "./images/pizza.png"
     },{
         "id" : 3,
         "name" : "Burger",
-        "price" : "$200",
+        "price" : "&#8377;120",
         "image" : "./images/burger.png"
     },
     {
         "id" : 4,
         "name" : "Sandwich",
-        "price" : "$100",
+        "price" : "&#8377;100",
         "image" : "./images/sandwich.png"
     },
     {
         "id" : 5,
         "name" : "Spring Roll",
-        "price" : "$150",
+        "price" : "&#8377;150",
         "image" : "./images/spring-roll.png"
     },
     {
         
         "id" : 6,
         "name" : "Chicken Roll",
-        "price" : "$250",
+        "price" : "&#8377;250",
         "image" : "./images/chicken-roll.png"
     },{
         
         "id" : 7,
         "name" : "Spaghetti",
-        "price" : "$100",
+        "price" : "&#8377;130",
         "image" : "./images/spaghetti.png"
     },{
         
         "id" : 8,
         "name" : "Lasagna",
-        "price" : "$100",
+        "price" : "&#8377;110",
         "image" : "./images/lasagna.png"
     }
 ]
