@@ -2,49 +2,49 @@
     {
         "id" : 1,
         "name" : "Fired Chicken",
-        "price" : "&#8377;200",
+        "price" : "₹200",
         "image" : "./images/fried-chicken.png"
     },
     {
         "id" : 2,
         "name" : "Pizza",
-        "price" : "&#8377;180",
+        "price" : "₹180",
         "image" : "./images/pizza.png"
     },{
         "id" : 3,
         "name" : "Burger",
-        "price" : "&#8377;120",
+        "price" : "₹120",
         "image" : "./images/burger.png"
     },
     {
         "id" : 4,
         "name" : "Sandwich",
-        "price" : "&#8377;100",
+        "price" : "₹100",
         "image" : "./images/sandwich.png"
     },
     {
         "id" : 5,
         "name" : "Spring Roll",
-        "price" : "&#8377;150",
+        "price" : "₹150",
         "image" : "./images/spring-roll.png"
     },
     {
         
         "id" : 6,
         "name" : "Chicken Roll",
-        "price" : "&#8377;250",
+        "price" : "₹250",
         "image" : "./images/chicken-roll.png"
     },{
         
         "id" : 7,
         "name" : "Spaghetti",
-        "price" : "&#8377;130",
+        "price" : "₹130",
         "image" : "./images/spaghetti.png"
     },{
         
         "id" : 8,
         "name" : "Lasagna",
-        "price" : "&#8377;110",
+        "price" : "₹110",
         "image" : "./images/lasagna.png"
     }
 ]
