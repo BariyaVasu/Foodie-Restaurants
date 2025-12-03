@@ -26,11 +26,11 @@
         <a href="#" class="logo">Foodie </a>
         <!-- Desktop list -->
         <ul class="navList flex gap">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#contact">Contacts</a></li>
         </ul>
         <div class="desktop_action flex gap2">
           <a href="#" class="cart-icon"
@@ -45,11 +45,11 @@
 
         <!-- Mobile list -->
         <ul class="mobile-list">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Menu</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#contact">Contacts</a></li>
           <li>
             <a href="#" class="btn" id="btnLogin"
               >Sign in &nbsp;
@@ -62,7 +62,7 @@
 
     <!-- Section part -->
     <main>
-      <section>
+      <section id="home" class="hero-section">
         <div class="hero-section flex wrapper gap3">
           <div class="content">
             <h1>
@@ -95,7 +95,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="service">
         <div class="wrapper p-top">
           <div class="text-center">
             <h5>Our Services</h5>
@@ -130,7 +130,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="menu">
         <div class="wrapper p-top">
           <div class="text-center">
             <h5>Our Menu</h5>
@@ -184,7 +184,7 @@
         </div>
       </section>
 
-      <section>
+      <section id="about">
         <div class="wrapper p-top flex gap2">
           <div class="image-container">
             <img src="assets/delivery-boy-with-phone.png" />
@@ -296,17 +296,16 @@
         </div>
       </section>
 
-      <section>
+      <section id="contact">
         <div class="wrapper p-top">
           <div class="text-center">
-            <h5>Our Subscribe</h5>
-            <h2>Subscribe To Our Newsletter</h2>
+            <h5>Get In Touch</h5>
+            <h2>Contact Us</h2>
             <p class="para m-auto">
-              We recommend you to subscribe our newspaper, drop your email below
-              to get daily update about us.
+              Have questions or feedback? Send us an email and we'll get back to you as soon as possible.
             </p>
 
-            <label class="input-container flex">
+            <label class="input-container flex mt-4">
               <input
                 type="email"
                 name="email"
@@ -314,7 +313,7 @@
                 placeholder="Enter your email address"
                 autocomplete="off"
               />
-              <a href="#" class="btn">Subscribe</a>
+              <a href="#" class="btn">Send Feedback</a>
             </label>
           </div>
         </div>
